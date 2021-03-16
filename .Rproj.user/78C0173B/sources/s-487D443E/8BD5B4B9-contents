@@ -7,5 +7,6 @@ for(i in rnorm(N)){
   }
 }
 result = Counter/N
+result
 #Se aproxima a E(x) = 68.2% cumpliendo la ley de los numeros
 #grandes

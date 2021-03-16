@@ -33,6 +33,18 @@ mi.iris <- iris[order(-iris$Petal.Length),] #Si queremos ordenar de mayor a meno
 mi.iris$Petal.Length #Todas las filas de la columna ordenados de mayor a menor
 hist(iris$Sepal.Width)#Muestra los datos de sewpal en un histograma
 
+
+as.name()
+attributes(data)
+boxplot()
+cat()
+ceiling()
+difftime
+is.null
+log10
+R.Version()
+rowSums()
+
 hist(iris$Sepal.Width, main = "iris: Histograma de la anchura de los sépalos",
      xlab = "Anchura del sépalo", ylab = "Frecuencia",
      col = "steelblue") #Histograma con titulos y color
