@@ -33,17 +33,29 @@ mi.iris <- iris[order(-iris$Petal.Length),] #Si queremos ordenar de mayor a meno
 mi.iris$Petal.Length #Todas las filas de la columna ordenados de mayor a menor
 hist(iris$Sepal.Width)#Muestra los datos de sewpal en un histograma
 
+Date <- as.Date("2021-3-16") #Converts strings to the Date class on R.
+Date
+my_string <- "This is \n an example string" 
+cat(my_string)# Cat returns a character string in a readable format like in other programming languages.
+my_number <- 1.1
+ceiling(my_number) #The ceiling function rounds a numeric input to the next higher integer
+time_1 <- "2021-03-16 00:00:00"
+time_2 <- "2021-03-11 00:00:00"
+difftime(time_1, time_2) #difftime calculates the diference between two dates
 
-as.name()
-attributes(data)
-boxplot()
-cat()
-ceiling()
-difftime
-is.null
-log10
-R.Version()
-rowSums()
+is.null(Date)# Checks if an object is null and returns a boolean value
+log10(3) # The log function computes a logarithm of a given numeric value
+R.Version() # Returns the R version and other parameters
+
+sink("hello.txt")
+my_string
+sink() #The sink function allows users to export data to various filetypes
+install.packages("stringr")
+library("stringr")
+nice_string <- "Cesar Velazquez"
+str_remove(nice_string, "quez")# Removes matched patterns on a string
+
+
 
 hist(iris$Sepal.Width, main = "iris: Histograma de la anchura de los sépalos",
      xlab = "Anchura del sépalo", ylab = "Frecuencia",
