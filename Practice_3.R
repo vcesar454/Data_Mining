@@ -51,5 +51,5 @@ ingresos <- round(ingresos/1000, 2)
 ingresos
 gastos <- round(gastos/1000, 2)
 gastos
-
+#Corrigir lo del puchh
 
