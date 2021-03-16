@@ -3,24 +3,24 @@
     "path": "~/Mineriade_Datos/Practices/Practice_3.R",
     "project_path": "Practices/Practice_3.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1445539354",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1615860725471.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "73,0",
-        "scrollLine": "43"
+        "cursorPosition": "48,59",
+        "scrollLine": "32"
     },
     "folds": "",
-    "lastKnownWriteTime": 1615863368,
+    "lastKnownWriteTime": 1615864507,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1615863766152,
+    "last_content_update": 1615864507817,
     "read_only": false,
     "read_only_alternatives": []
 }

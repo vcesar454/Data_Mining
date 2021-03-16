@@ -5,48 +5,48 @@ Expenses <- c (12051.82, 5695.07, 12319.20, 12089.72, 8658.57, 840.20, 3285.73, 
 Revenue
 Expenses
 
-#Calcule las ganancias como las diferencias entre ingresos y gastos
+#Calculate Profit As The Differences Between Revenue And Expenses
 Profit <- Revenue - Expenses
 Profit
 
-#Calcule el impuesto como el 30% de la ganancia y redondee a 2 decimales
+#Calculate Tax As 30% Of Profit And Round To 2 Decimal Points
 tax <- round(0.30* Profit, 2)
 tax
 
-#Calcular las ganancias restantes después de deducir los impuestos
+#Calculate Profit Remaining After Tax Is Deducted
 Profit_After_tax <- Profit - tax
 Profit_After_tax
 
-#Calcular el margen de beneficio como beneficio después de impuestos sobre ingresos
-#Redondee a 2 puntos decimales, luego multiplique por 100 para obtener %
+#Calculate The Profit Margin As Profit After Tax Over Revenue
+#Round To 2 Decimal Points, Then Multiply By 100 To Get %
 Profit_Margin <- round(Profit_After_tax/Revenue, 2)*100
 Profit_Margin
 
-#Calcule el beneficio medio después de impuestos durante los 12 meses
+#Calculate The Mean Profit After Tax For The 12 Months
 mean_pat <- mean(Profit_After_tax)
 mean_pat
 
-#Encuentre los meses con beneficios después de impuestos superiores a la media
+#Find The Months With Above-Mean Profit After Tax
 GoodMonths <- Profit_After_tax > mean_pat
-#Los mese buenos fueron Enero, Junio, Julio, Agosto, Septiembre y Diciembre
+#The good months were January, June, July, August, September and December
 GoodMonths
 
-# ¡Los meses malos son lo opuesto a los buenos meses!
+#Bad Months Are The Opposite Of Good Months !
 BadMonths <- Profit_After_tax< mean_pat
-#Los meses malso fueron  Febrero, Marzo, Abril, Mayo, Octubre y Noviembre 
+#The bad months were February, March, April, May, October and November 
 BadMonths
 
-#El mejor mes es cuando el beneficio después de impuestos era igual al máximo
+#The Best Month Is Where Profit After Tax Was Equal To The Maximum
 BestMonth <- Profit_After_tax == max(Profit_After_tax)
-#El mejor mes Fue diciembre
+#The best month is December
 BestMonth
 
-# El peor mes es cuando la ganancia después de impuestos era igual al mínimo
+# The Worst Month Is Where Profit After Tax Was Equal To The Minimum
 WorstMonth <- Profit_After_tax == min(Profit_After_tax)
-#El peor mes fue Marzo
+#The worst month was March
 WorstMonth
 
-#Convertir todos los calculos a unidades de mil dolares
+# Convert All Calculations To Units Of One Thousand Dollars
 Revenue <- round(Revenue/1000, 2)
 Revenue
 
@@ -59,3 +59,15 @@ Profit
 Profit_After_tax <- round(Profit_After_tax/1000, 2)
 Profit_After_tax
 
+M <- rbind(
+  Revenue, 
+  Expenses, 
+  Profit,
+  Profit_After_tax, 
+  Profit_Margin, 
+  GoodMonths, 
+  BadMonths, 
+  BestMonth,
+  WorstMonth
+)
+M
