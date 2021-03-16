@@ -43,12 +43,19 @@ BestMonth
 
 # El peor mes es cuando la ganancia después de impuestos era igual al mínimo
 WorstMonth <- Profit_After_tax == min(Profit_After_tax)
-
 #El peor mes fue Marzo
 WorstMonth
 
 #Convertir todos los calculos a unidades de mil dolares
 Revenue <- round(Revenue/1000, 2)
 Revenue
+
 Expenses <- round(Expenses/1000, 2)
 Expenses
+
+Profit <- round(Profit/1000, 2)
+Profit
+
+Profit_After_tax <- round(Profit_After_tax/1000, 2)
+Profit_After_tax
+
