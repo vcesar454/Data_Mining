@@ -6,13 +6,14 @@
 
 
 
-## [Unit 1](https://github.com/vcesar454/Data_Mining/tree/Unit_1/Practices)
+## [Unit 1](https://github.com/vcesar454/Data_Mining/tree/Unit_1)
 ### Practices
 - [All Practices](https://github.com/vcesar454/Data_Mining/tree/Unit_1/Practices) <br>
 - [Practice #1](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_1.R) <br>
 - [Practice #2](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_2.R) <br>
 - [Practice #3](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_3.R)
 ### Homework & Research
+- [Homework #1](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Homework%20%26%20Research/Homework_1_Questionnaire.pdf)
 ### Evaluation
 
 ## Unit 2
