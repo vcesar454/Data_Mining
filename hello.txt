@@ -1,1 +1,0 @@
-[1] "This is \n an example string"
