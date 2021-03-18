@@ -1,4 +1,9 @@
-print(iris)     # iris es una tabla con 150 filas para practicas que biende por defecto
+
+#<1 commando print()>
+# iris es una tabla con 150 filas para practicas que biende por defecto
+print(iris)
+
+
 plot(iris)       # Representa gráficamente la tabla
 summary(iris)    # Resumen estadístico de las columnas
 str(iris)        # "Representación textual" del objeto
