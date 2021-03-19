@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99964df21f0b21ac6957d748a5c3f1b1e0f4d809
 # 1- print (), prints iris being a table with 150 rows for practices that comes by default
 print (iris)
 
