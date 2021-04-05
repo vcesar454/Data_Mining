@@ -13,3 +13,9 @@ mydf2_1960
 
 mydf1_2013 <- data.frame(stats[stats$Year==2013,], Life_Expectancy_At_Birth_2013)
 mydf1_2013
+
+library("ggplot2")
+
+#Diagrama de dispersion de 1960
+qplot(data=mydf2_1960, x=Fertility.Rate, y=Life_Expectancy_At_Birth_1960, color=Region,
+      main="Fertility Rate vs Life Expectancy of 1960")
