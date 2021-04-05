@@ -9,3 +9,7 @@ Life_Expectancy_At_Birth_2013 <- c(75.3286585365854,60.0282682926829,51.86617073
 
 mydf2_1960 <- data.frame(stats[stats$Year==1960,], Life_Expectancy_At_Birth_1960)
 mydf2_1960
+
+
+mydf1_2013 <- data.frame(stats[stats$Year==2013,], Life_Expectancy_At_Birth_2013)
+mydf1_2013
