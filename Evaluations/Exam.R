@@ -19,3 +19,7 @@ library("ggplot2")
 #Diagrama de dispersion de 1960
 qplot(data=mydf2_1960, x=Fertility.Rate, y=Life_Expectancy_At_Birth_1960, color=Region,
       main="Fertility Rate vs Life Expectancy of 1960")
+
+#Diagrama de dispersion de 2013
+qplot(data=mydf1_2013, x=Fertility.Rate, y=Life_Expectancy_At_Birth_2013, color=Region, 
+      main="Fertility Rate vs Life Expectancy of 2013")
