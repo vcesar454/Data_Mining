@@ -15,6 +15,7 @@
 ### Homework & Research
 - [Homework #1](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Homework%20%26%20Research/Homework_1_Questionnaire.pdf)
 ### Evaluation
+- [Evaluation](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Evaluations/Exam.R)
 
 ## Unit 2
 ### Practices
