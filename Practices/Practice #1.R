@@ -15,24 +15,30 @@ library("ggplot2")
 install.packages("dplyr")
 library(dplyr) 
 
+#1. Scatterplot inclusion
 #Global video games sales by platform
-ggplot(Games, aes(x=Global_Sales, y=Platform,
+ScatPlot <- ggplot(Games, aes(x=Global_Sales, y=Platform,
                   color=Genre))+geom_point()
+ScatPlot
 
-#Video games production by platform per year
-ggplot(Games, aes(x=Platform, y=Year,
+#Videogames produced per year
+Scatplot2 <- ggplot(Games, aes(x=Platform, y=Year,
                   color=Genre))+geom_point()
+Scatplot2
 
-
+#2. Facets inclusion
+#Facets
 v <- ggplot(Games, aes(x=Global_Sales))
 v + geom_histogram(binwidth = 10, aes(fill=Genre),
                    color="Black")
-#Facets
+
 v + geom_histogram(binwidth = 10, aes(fill=Genre),
                    color="Black") + facet_grid(Genre~., scales="free")
 
 
+#3. Distribution Graphs
 geo<- filter(Games, Genre == "Action")
+geo
 
 #Sales per year in the US
 ggplot(data=Games, aes(x=Year, y=EU_Sales)) + 
