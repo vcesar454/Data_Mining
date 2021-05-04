@@ -15,6 +15,23 @@ library("ggplot2")
 install.packages("dplyr")
 library(dplyr) 
 
+#Global video games sales by platform
+ggplot(Games, aes(x=Global_Sales, y=Platform,
+                  color=Genre))+geom_point()
+
+#Video games production by platform per year
+ggplot(Games, aes(x=Platform, y=Year,
+                  color=Genre))+geom_point()
+
+
+v <- ggplot(Games, aes(x=Global_Sales))
+v + geom_histogram(binwidth = 10, aes(fill=Genre),
+                   color="Black")
+#Facets
+v + geom_histogram(binwidth = 10, aes(fill=Genre),
+                   color="Black") + facet_grid(Genre~., scales="free")
+
+
 geo<- filter(Games, Genre == "Action")
 
 #Sales per year in the US
