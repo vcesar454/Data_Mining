@@ -16,3 +16,17 @@ cat(nrow(datos), " x ", ncol(datos))
 
 library(dplyr)
 library(ggplot2)
+
+#Removing columns that we aren't using
+head(DF_Movies_filtered)
+datos$Day.of.Week <- NULL
+datos$Director <- NULL
+datos$Release.Date <- NULL
+datos$Adjusted.Gross...mill. <- NULL
+datos$IMDb.Rating <- NULL
+datos$MovieLens.Rating <- NULL
+datos$Overseas. <- NULL
+datos$Overseas...mill. <- NULL
+datos$Runtime..min. <- NULL
+datos$Profit. <- NULL
+satos$Profit...mill. <- NULL
