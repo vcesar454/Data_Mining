@@ -13,3 +13,6 @@ summary(datos)
 
 #Shape of the Data Frame
 cat(nrow(datos), " x ", ncol(datos))
+
+library(dplyr)
+library(ggplot2)
