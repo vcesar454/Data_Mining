@@ -48,3 +48,6 @@ cat(nrow(Movies), " x ", ncol(Movies))
 u <- ggplot(DF_Movies_filtered, aes(x=Genre, y = Gross...US))
 
 u + geom_jitter(aes(color=Studio, size=Budget...mill.)) + geom_boxplot(alpha=0.5)
+
+u + geom_jitter(aes(color=Studio, size=Budget...mill.)) + geom_boxplot(alpha=0.5) + 
+  xlab("Genre") + ylab("Gross % US") + ggtitle("Domestic Gross % by Genre")
