@@ -10,3 +10,6 @@ colnames(datos)
 nrow(datos)
 ncol(datos)
 summary(datos)
+
+#Shape of the Data Frame
+cat(nrow(datos), " x ", ncol(datos))
