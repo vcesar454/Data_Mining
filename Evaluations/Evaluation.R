@@ -35,3 +35,8 @@ satos$Profit...mill. <- NULL
 #Filtering the dataframe
 Movies <- filter(datos, Genre == "action" | Genre == "adventure" | Genre == "animation" | 
                    Genre == "comedy" | Genre == "drama")
+
+#Filtering the dataframe by studio
+DF_Movies_filtered <- filter(Movies, Studio == "Buena Vista Studios" | Studio == "Fox" 
+                             | Studio == "Paramount Pictures" | Studio == "Sony" | 
+                               Studio == "Universal" | Studio == "WB")
