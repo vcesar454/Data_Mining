@@ -29,7 +29,7 @@ datos$Overseas. <- NULL
 datos$Overseas...mill. <- NULL
 datos$Runtime..min. <- NULL
 datos$Profit. <- NULL
-satos$Profit...mill. <- NULL
+datos$Profit...mill. <- NULL
 
 
 #Filtering the dataframe
