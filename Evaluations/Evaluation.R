@@ -40,3 +40,6 @@ Movies <- filter(datos, Genre == "action" | Genre == "adventure" | Genre == "ani
 DF_Movies_filtered <- filter(Movies, Studio == "Buena Vista Studios" | Studio == "Fox" 
                              | Studio == "Paramount Pictures" | Studio == "Sony" | 
                                Studio == "Universal" | Studio == "WB")
+
+#Shape of the Movies Data Frame
+cat(nrow(Movies), " x ", ncol(Movies))
