@@ -43,3 +43,6 @@ DF_Movies_filtered <- filter(Movies, Studio == "Buena Vista Studios" | Studio ==
 
 #Shape of the Movies Data Frame
 cat(nrow(Movies), " x ", ncol(Movies))
+
+##<--------------------------------------------------------------------------------------
+u <- ggplot(DF_Movies_filtered, aes(x=Genre, y = Gross...US))
