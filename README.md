@@ -18,6 +18,8 @@
 - [Homework #1](https://github.com/vcesar454/Data_Mining/blob/Unit_2/Homework%20%26%20Research/Origin%20and%20Grammar%20of%20Graphs1.pdf)
 - [Homework #2](https://github.com/vcesar454/Data_Mining/blob/Unit_2/Homework%20%26%20Research/Statistical%20Distributions.pdf)
 ### Evaluation
+- [Evaluation.R](https://github.com/vcesar454/Data_Mining/blob/Unit_2/Evaluations/Evaluation.R)
+- [Evaluation.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_2/Evaluations/Evaluative%20Practice%20-%20Unit%202.pdf)
 
 ## Unit 3
 ### Practices
