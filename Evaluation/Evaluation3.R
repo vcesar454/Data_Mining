@@ -48,3 +48,7 @@ cm
 #where the file is located.
 #install.packages("C:\Users\vcesa\Downloads\ElemStatLearn", repos=NULL, type="source")
 library(ElemStatLearn)
+
+
+#Declare set as the test data set
+set = test_set
