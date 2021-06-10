@@ -51,4 +51,4 @@ library(ElemStatLearn)
 
 
 #Declare set as the test data set
-set = test_set
+set = training_set
