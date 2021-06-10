@@ -36,3 +36,7 @@ classifier = naiveBayes(x = training_set[-3], y = training_set$Purchased)
 #based on the classifier, a prediction is created in the y_pred variable
 y_pred = predict(classifier, newdata = test_set[-3])
 y_pred
+
+#Create a confusion matrix with the test data and the prediction
+cm = table(test_set[, 3], y_pred)
+cm
