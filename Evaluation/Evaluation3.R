@@ -21,3 +21,7 @@ training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
 training_set
 test_set
+
+#Normalize or fit the data with the scale function.
+training_set[-3] = scale(training_set[-3])
+test_set[-3] = scale(test_set[-3])
