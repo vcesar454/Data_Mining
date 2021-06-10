@@ -29,3 +29,6 @@ test_set[-3] = scale(test_set[-3])
 #To use the naiveBayes functions, a package instalation is required
 #Install.packages('e1071')
 library(e1071)
+
+# We create the classifier, with naiveBayes and pass it the adjusted training data and the training data as such.
+classifier = naiveBayes(x = training_set[-3], y = training_set$Purchased)
