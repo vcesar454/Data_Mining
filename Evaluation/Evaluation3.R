@@ -40,3 +40,11 @@ y_pred
 #Create a confusion matrix with the test data and the prediction
 cm = table(test_set[, 3], y_pred)
 cm
+
+#The library 'ElemStatLearn' needs to be installed to run the following code
+#Needs to be downloaded from the CRAN Repository. Once it's downloaded it comes
+#on a compressed file, it needs to be unzipped before running the code commented
+#below. Locate the uncompressed folder and run the command below replacing the path
+#where the file is located.
+#install.packages("C:\Users\vcesa\Downloads\ElemStatLearn", repos=NULL, type="source")
+library(ElemStatLearn)
