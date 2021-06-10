@@ -8,3 +8,8 @@ dataset = read.csv('Social_Network_Ads.csv')
 
 dataset = dataset[3:5]
 dataset
+
+
+#We load the “caTools” library and create a random seed.
+library(caTools)
+set.seed(123)
