@@ -32,3 +32,7 @@ library(e1071)
 
 # We create the classifier, with naiveBayes and pass it the adjusted training data and the training data as such.
 classifier = naiveBayes(x = training_set[-3], y = training_set$Purchased)
+
+#based on the classifier, a prediction is created in the y_pred variable
+y_pred = predict(classifier, newdata = test_set[-3])
+y_pred
