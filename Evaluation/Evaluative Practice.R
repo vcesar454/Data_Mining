@@ -41,3 +41,7 @@ head(iris.new)
 
 result<- kmeans(iris.new,3) #aplly k-means algorithm with no. of centroids(k)=3
 result$size # returns the number of records in each cluster
+
+
+result$centers # gives value of cluster center datapoint value(3 centers for k=3)
+result$cluster #gives cluster vector showing the custer where each record falls
