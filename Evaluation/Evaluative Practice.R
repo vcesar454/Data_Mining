@@ -31,3 +31,10 @@ plot(1:10,
 normalize <- function(x){
   return ((x-min(x))/(max(x)-min(x)))
 }
+
+#Normalizing the data for each column in the dataset.
+iris.new$Sepal.Length<- normalize(iris.new$Sepal.Length)
+iris.new$Sepal.Width<- normalize(iris.new$Sepal.Width)
+iris.new$Petal.Length<- normalize(iris.new$Petal.Length)
+iris.new$Petal.Width<- normalize(iris.new$Petal.Width)
+head(iris.new)
