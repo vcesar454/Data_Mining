@@ -27,3 +27,7 @@ plot(1:10,
      main = paste('The Elbow Method'),
      xlab = 'Number of clusters',
      ylab = 'WCSS')
+
+normalize <- function(x){
+  return ((x-min(x))/(max(x)-min(x)))
+}
