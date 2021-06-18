@@ -52,3 +52,6 @@ plot(iris.new[c(1,2)], col=result$cluster)# Plot to see how Sepal.Length and Sep
 plot(iris.new[c(1,2)], col=iris.class)# Plot to see how Sepal.Length and Sepal.Width data points have been distributed originally as per "class" attribute in dataset
 plot(iris.new[c(3,4)], col=result$cluster)# Plot to see how Petal.Length and Petal.Width data points have been distributed in clusters
 plot(iris.new[c(3,4)], col=iris.class)
+
+#Shows which type of flower belongs to in the cluster
+table(result$cluster,iris.class)
