@@ -11,3 +11,8 @@ str(iris) #view structure of dataset
 summary(iris) #view statistical summary of dataset
 head(iris) #view top  rows of dataset
 
+#Preprocess the dataset
+iris.class<- iris[,"Species"]
+iris.new<- iris[,c(1,2,3,4)]
+head(iris.new)
+head(iris.class)
