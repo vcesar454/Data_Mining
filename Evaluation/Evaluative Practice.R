@@ -45,3 +45,10 @@ result$size # returns the number of records in each cluster
 
 result$centers # gives value of cluster center datapoint value(3 centers for k=3)
 result$cluster #gives cluster vector showing the custer where each record falls
+
+#Verify results of clustering with graphics
+par(mfrow=c(2,2), mar=c(5,4,2,2))
+plot(iris.new[c(1,2)], col=result$cluster)# Plot to see how Sepal.Length and Sepal.Width data points have been distributed in clusters
+plot(iris.new[c(1,2)], col=iris.class)# Plot to see how Sepal.Length and Sepal.Width data points have been distributed originally as per "class" attribute in dataset
+plot(iris.new[c(3,4)], col=result$cluster)# Plot to see how Petal.Length and Petal.Width data points have been distributed in clusters
+plot(iris.new[c(3,4)], col=iris.class)
