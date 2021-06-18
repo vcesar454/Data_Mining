@@ -55,3 +55,6 @@ plot(iris.new[c(3,4)], col=iris.class)
 
 #Shows which type of flower belongs to in the cluster
 table(result$cluster,iris.class)
+
+library(cluster)
+clusplot(iris, result$cluster, color=T, shade=T, labels=0, lines=0)
