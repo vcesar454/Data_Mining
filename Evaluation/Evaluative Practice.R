@@ -38,3 +38,6 @@ iris.new$Sepal.Width<- normalize(iris.new$Sepal.Width)
 iris.new$Petal.Length<- normalize(iris.new$Petal.Length)
 iris.new$Petal.Width<- normalize(iris.new$Petal.Width)
 head(iris.new)
+
+result<- kmeans(iris.new,3) #aplly k-means algorithm with no. of centroids(k)=3
+result$size # returns the number of records in each cluster
