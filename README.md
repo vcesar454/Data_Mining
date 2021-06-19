@@ -6,17 +6,10 @@
 
 
 
-## [Unit 1](https://github.com/vcesar454/Data_Mining/tree/Unit_1)
+## [Unit 1]
 ### Practices
-- [All Practices](https://github.com/vcesar454/Data_Mining/tree/Unit_1/Practices) <br>
-- [Practice #1.R](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_1.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice%201.pdf)
-- [Practice #2.R](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_2.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice%202.pdf)
-- [Practice #3.R](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_3.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice%203.pdf)
-- [Practice #5.R](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice_5.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Practices/Practice%205.pdf)
 ### Homework & Research
-- [Homework #1](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Homework%20%26%20Research/Homework_1_Questionnaire.pdf)
 ### Evaluation
-- [Evaluation](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Evaluations/Exam.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_1/Evaluations/Evaluative%20practice.pdf)
 
 ## Unit 2
 ### Practices
@@ -32,3 +25,4 @@
 ### Practices
 ### Homework & Research
 ### Evaluation
+- [Evaluation - Unit #4](https://github.com/vcesar454/Data_Mining/blob/Unit_4/Evaluation/Evaluative%20Practice.R) -- [Document.pdf](https://github.com/vcesar454/Data_Mining/blob/Unit_4/Evaluation/Pr%C3%A1ctica%20Evaluatoria%20%234.pdf)
